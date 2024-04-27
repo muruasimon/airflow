@@ -1035,3 +1035,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-04-27 23:37:09,754] {logging_mixin.py:104} INFO - [2024-04-27 23:37:09,753] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-04-27 23:37:09,769] {logging_mixin.py:104} INFO - [2024-04-27 23:37:09,769] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-04-25 00:00:00+00:00
 [2024-04-27 23:37:09,784] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.100 seconds
+[2024-04-27 23:37:39,890] {scheduler_job.py:182} INFO - Started process (PID=1455) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-04-27 23:37:39,893] {scheduler_job.py:629} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-04-27 23:37:39,894] {logging_mixin.py:104} INFO - [2024-04-27 23:37:39,894] {dagbag.py:451} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-04-27 23:37:39,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py
+[2024-04-27 23:37:39,953] {logging_mixin.py:104} INFO - [2024-04-27 23:37:39,953] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:37:39,969] {logging_mixin.py:104} INFO - [2024-04-27 23:37:39,969] {dag.py:2280} INFO - Setting next_dagrun for example_task_group to 2024-04-25 00:00:00+00:00
+[2024-04-27 23:37:39,983] {scheduler_job.py:190} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_task_group.py took 0.097 seconds
