@@ -151,3 +151,45 @@
 [2024-04-27 23:25:59,360] {logging_mixin.py:104} INFO - [2024-04-27 23:25:59,360] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-04-27 23:25:59,384] {logging_mixin.py:104} INFO - [2024-04-27 23:25:59,384] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
 [2024-04-27 23:25:59,399] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.117 seconds
+[2024-04-27 23:26:29,644] {scheduler_job.py:182} INFO - Started process (PID=869) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:26:29,646] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:26:29,648] {logging_mixin.py:104} INFO - [2024-04-27 23:26:29,648] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:26:29,693] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:26:29,724] {logging_mixin.py:104} INFO - [2024-04-27 23:26:29,724] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:26:29,748] {logging_mixin.py:104} INFO - [2024-04-27 23:26:29,748] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:26:29,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.126 seconds
+[2024-04-27 23:27:00,057] {scheduler_job.py:182} INFO - Started process (PID=897) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:00,066] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:27:00,068] {logging_mixin.py:104} INFO - [2024-04-27 23:27:00,068] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:00,117] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:00,157] {logging_mixin.py:104} INFO - [2024-04-27 23:27:00,157] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:27:00,185] {logging_mixin.py:104} INFO - [2024-04-27 23:27:00,184] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:27:00,202] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.158 seconds
+[2024-04-27 23:27:30,488] {scheduler_job.py:182} INFO - Started process (PID=924) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:30,490] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:27:30,493] {logging_mixin.py:104} INFO - [2024-04-27 23:27:30,492] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:30,556] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:27:30,604] {logging_mixin.py:104} INFO - [2024-04-27 23:27:30,603] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:27:30,630] {logging_mixin.py:104} INFO - [2024-04-27 23:27:30,629] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:27:30,650] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.169 seconds
+[2024-04-27 23:28:00,711] {scheduler_job.py:182} INFO - Started process (PID=951) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:00,714] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:28:00,716] {logging_mixin.py:104} INFO - [2024-04-27 23:28:00,716] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:00,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:00,805] {logging_mixin.py:104} INFO - [2024-04-27 23:28:00,804] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:28:00,836] {logging_mixin.py:104} INFO - [2024-04-27 23:28:00,836] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:28:00,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.158 seconds
+[2024-04-27 23:28:31,038] {scheduler_job.py:182} INFO - Started process (PID=977) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:31,040] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:28:31,042] {logging_mixin.py:104} INFO - [2024-04-27 23:28:31,042] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:31,083] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:28:31,115] {logging_mixin.py:104} INFO - [2024-04-27 23:28:31,115] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:28:31,140] {logging_mixin.py:104} INFO - [2024-04-27 23:28:31,139] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:28:31,160] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.127 seconds
+[2024-04-27 23:29:01,248] {scheduler_job.py:182} INFO - Started process (PID=997) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:01,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:29:01,252] {logging_mixin.py:104} INFO - [2024-04-27 23:29:01,251] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:01,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:01,311] {logging_mixin.py:104} INFO - [2024-04-27 23:29:01,311] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:29:01,330] {logging_mixin.py:104} INFO - [2024-04-27 23:29:01,330] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:29:01,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.102 seconds
