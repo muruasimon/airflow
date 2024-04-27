@@ -1,0 +1,80 @@
+[2024-04-27 22:46:42,882] {scheduler_job.py:182} INFO - Started process (PID=1564) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:46:42,886] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:46:42,888] {logging_mixin.py:104} INFO - [2024-04-27 22:46:42,888] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:46:42,979] {logging_mixin.py:104} INFO - [2024-04-27 22:46:42,973] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/my_cosmos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_cosmos_dag.py", line 3, in <module>
+    from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
+ModuleNotFoundError: No module named 'cosmos'
+[2024-04-27 22:46:42,984] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:46:43,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.145 seconds
+[2024-04-27 22:47:13,517] {scheduler_job.py:182} INFO - Started process (PID=1591) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:13,521] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:47:13,525] {logging_mixin.py:104} INFO - [2024-04-27 22:47:13,524] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:13,576] {logging_mixin.py:104} INFO - [2024-04-27 22:47:13,565] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/my_cosmos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_cosmos_dag.py", line 3, in <module>
+    from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
+ModuleNotFoundError: No module named 'cosmos'
+[2024-04-27 22:47:13,580] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:13,618] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.110 seconds
+[2024-04-27 22:47:44,027] {scheduler_job.py:182} INFO - Started process (PID=1618) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:44,030] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:47:44,032] {logging_mixin.py:104} INFO - [2024-04-27 22:47:44,031] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:44,064] {logging_mixin.py:104} INFO - [2024-04-27 22:47:44,059] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/my_cosmos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_cosmos_dag.py", line 3, in <module>
+    from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
+ModuleNotFoundError: No module named 'cosmos'
+[2024-04-27 22:47:44,069] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:47:44,104] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.083 seconds
+[2024-04-27 22:48:14,230] {scheduler_job.py:182} INFO - Started process (PID=1645) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:14,232] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:48:14,234] {logging_mixin.py:104} INFO - [2024-04-27 22:48:14,234] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:14,261] {logging_mixin.py:104} INFO - [2024-04-27 22:48:14,256] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/my_cosmos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_cosmos_dag.py", line 3, in <module>
+    from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
+ModuleNotFoundError: No module named 'cosmos'
+[2024-04-27 22:48:14,264] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:14,295] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.070 seconds
+[2024-04-27 22:48:44,512] {scheduler_job.py:182} INFO - Started process (PID=1672) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:44,524] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:48:44,527] {logging_mixin.py:104} INFO - [2024-04-27 22:48:44,526] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:44,613] {logging_mixin.py:104} INFO - [2024-04-27 22:48:44,607] {dagbag.py:308} ERROR - Failed to import: /opt/airflow/dags/my_cosmos_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 305, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_cosmos_dag.py", line 3, in <module>
+    from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
+ModuleNotFoundError: No module named 'cosmos'
+[2024-04-27 22:48:44,639] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:48:44,674] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.167 seconds
+[2024-04-27 22:49:14,925] {scheduler_job.py:182} INFO - Started process (PID=1699) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:14,928] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:49:14,930] {logging_mixin.py:104} INFO - [2024-04-27 22:49:14,930] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:14,936] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:14,938] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.019 seconds
+[2024-04-27 22:49:45,725] {scheduler_job.py:182} INFO - Started process (PID=1726) to work on /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:45,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/my_cosmos_dag.py for tasks to queue
+[2024-04-27 22:49:45,729] {logging_mixin.py:104} INFO - [2024-04-27 22:49:45,729] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:45,736] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/my_cosmos_dag.py
+[2024-04-27 22:49:45,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/my_cosmos_dag.py took 0.017 seconds
