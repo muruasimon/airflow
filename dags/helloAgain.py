@@ -10,7 +10,7 @@ args = {
 }
 
 with DAG(
-    dag_id='exampleSimon',
+    dag_id='exampleSimon2',
     default_args=args,
     schedule_interval='0 0 * * *',
     start_date=days_ago(2),
