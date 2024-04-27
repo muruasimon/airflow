@@ -193,3 +193,52 @@
 [2024-04-27 23:29:01,311] {logging_mixin.py:104} INFO - [2024-04-27 23:29:01,311] {dag.py:1824} INFO - Sync 1 DAGs
 [2024-04-27 23:29:01,330] {logging_mixin.py:104} INFO - [2024-04-27 23:29:01,330] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
 [2024-04-27 23:29:01,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.102 seconds
+[2024-04-27 23:29:32,006] {scheduler_job.py:182} INFO - Started process (PID=1024) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:32,007] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:29:32,009] {logging_mixin.py:104} INFO - [2024-04-27 23:29:32,009] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:32,042] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:29:32,065] {logging_mixin.py:104} INFO - [2024-04-27 23:29:32,065] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:29:32,083] {logging_mixin.py:104} INFO - [2024-04-27 23:29:32,083] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:29:32,098] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.097 seconds
+[2024-04-27 23:30:02,441] {scheduler_job.py:182} INFO - Started process (PID=1052) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:02,443] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:30:02,445] {logging_mixin.py:104} INFO - [2024-04-27 23:30:02,444] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:02,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:02,515] {logging_mixin.py:104} INFO - [2024-04-27 23:30:02,515] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:30:02,535] {logging_mixin.py:104} INFO - [2024-04-27 23:30:02,535] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:30:02,553] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.116 seconds
+[2024-04-27 23:30:32,914] {scheduler_job.py:182} INFO - Started process (PID=1079) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:32,916] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:30:32,918] {logging_mixin.py:104} INFO - [2024-04-27 23:30:32,917] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:32,962] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:30:32,990] {logging_mixin.py:104} INFO - [2024-04-27 23:30:32,990] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:30:33,013] {logging_mixin.py:104} INFO - [2024-04-27 23:30:33,013] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:30:33,030] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.121 seconds
+[2024-04-27 23:31:03,897] {scheduler_job.py:182} INFO - Started process (PID=1105) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:03,899] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:31:03,900] {logging_mixin.py:104} INFO - [2024-04-27 23:31:03,900] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:03,939] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:03,969] {logging_mixin.py:104} INFO - [2024-04-27 23:31:03,969] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:31:03,991] {logging_mixin.py:104} INFO - [2024-04-27 23:31:03,990] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:31:04,009] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.117 seconds
+[2024-04-27 23:31:34,367] {scheduler_job.py:182} INFO - Started process (PID=1134) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:34,369] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:31:34,371] {logging_mixin.py:104} INFO - [2024-04-27 23:31:34,371] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:34,430] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:31:34,501] {logging_mixin.py:104} INFO - [2024-04-27 23:31:34,501] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:31:34,573] {logging_mixin.py:104} INFO - [2024-04-27 23:31:34,573] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:31:34,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.259 seconds
+[2024-04-27 23:32:05,008] {scheduler_job.py:182} INFO - Started process (PID=1162) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:05,010] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:32:05,012] {logging_mixin.py:104} INFO - [2024-04-27 23:32:05,011] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:05,045] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:05,071] {logging_mixin.py:104} INFO - [2024-04-27 23:32:05,071] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:32:05,089] {logging_mixin.py:104} INFO - [2024-04-27 23:32:05,089] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:32:05,104] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.101 seconds
+[2024-04-27 23:32:35,525] {scheduler_job.py:182} INFO - Started process (PID=1191) to work on /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:35,527] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/helloAgain.py for tasks to queue
+[2024-04-27 23:32:35,530] {logging_mixin.py:104} INFO - [2024-04-27 23:32:35,529] {dagbag.py:451} INFO - Filling up the DagBag from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:35,571] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['exampleSimon']) retrieved from /opt/airflow/dags/helloAgain.py
+[2024-04-27 23:32:35,605] {logging_mixin.py:104} INFO - [2024-04-27 23:32:35,605] {dag.py:1824} INFO - Sync 1 DAGs
+[2024-04-27 23:32:35,633] {logging_mixin.py:104} INFO - [2024-04-27 23:32:35,633] {dag.py:2280} INFO - Setting next_dagrun for exampleSimon to 2024-04-27 00:00:00+00:00
+[2024-04-27 23:32:35,654] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/helloAgain.py took 0.134 seconds
